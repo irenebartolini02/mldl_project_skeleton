@@ -1,9 +1,9 @@
 
 import torch
 from torch import nn
-from mldl_project_skeleton.models.custumnet import CustomNet
-from mldl_project_skeleton.dataset.data import train_loader, val_loader
-from mldl_project_skeleton.train import train
+from models.custumnet import CustomNet
+from data.data import train_loader, val_loader
+from train import train
  # Validation loop
 def validate(model, val_loader, criterion):
     model.eval()
